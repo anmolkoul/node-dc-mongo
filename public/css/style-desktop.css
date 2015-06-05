@@ -1,0 +1,177 @@
+/*
+	Synchronous by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 5em 0em;
+		height: 66px;
+		margin-top:-100px;
+	}
+	
+		.homepage #header
+		{
+			padding: 10em 0em;
+		}
+
+		#header .container
+		{
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-bottom: 3em;
+	}
+	
+		#logo h1
+		{
+			color: #FFF;
+		}
+	
+		#logo h1 a
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 2em;
+			font-weight: 500;
+			color: #323338;
+			padding-top: 30px;
+		}
+
+		#logo span
+		{
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			color: #8e8588;
+		}			
+			
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 1em;
+				outline: 0;
+				color: #323338;
+			}
+
+
+			#nav > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				background: #323338;
+				border-radius: 4px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner {
+		overflow: hidden;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	}
+
+	#banner .banner-border {
+		padding: 20px;
+		background: #FFFFFF;
+	}
+
+	#banner a img {
+		display: block;
+		width: 100%;
+	}
+
+/*********************************************************************************/
+/* Page Wrapper                                                                  */
+/*********************************************************************************/
+
+	.homepage #page {
+		overflow: hidden;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content {
+		padding: 0px 0px 0px 0px;
+	}
+
+	.twocolumn2 #content {
+	}
+
+	.onecolumn #content {
+	}
+
+	#content h2 {
+	}
+
+/*********************************************************************************/
+/* Sidebar    r                                                                  */
+/*********************************************************************************/
+
+	#sidebar1 {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#sidebar1 h2 {
+	}
+
+	#sidebar2 {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#sidebar2 h2 {
+	}
