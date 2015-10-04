@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var db = require('./config/db');
+var db = require('../../config/db');
 
 // connect to our mongoDB database (commented out after you enter in your own credentials)
 var connectionsubject = mongoose.createConnection(db.urlSubjectViews);
