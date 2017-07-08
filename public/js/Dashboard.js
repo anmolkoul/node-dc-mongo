@@ -6,7 +6,7 @@ function makeGraphs(error, apiData) {
 	
 //Start Transformations
 	var dataSet = apiData;
-	var dateFormat = d3.time.format("%m/%d/%Y");
+	var dateFormat = d3.time.format("%Y-%m-%d %H:%M:%S");
 	dataSet.forEach(function(d) {
 		d.date_posted = dateFormat.parse(d.date_posted);
 				d.date_posted.setDate(1);
@@ -164,3 +164,4 @@ console.log(maxDate);
     dc.renderAll();
 
 };
+
