@@ -3,9 +3,26 @@
   "main": "server.js",
   "version": "1.0.1",
   "dependencies": {
-    "express" : "~4.5.1",
-	"mongoose" : "~3.8.0",
-	"body-parser" : "~1.4.2",
-	"method-override" : "~2.0.2"
-  }
+    "body-parser": "~1.4.2",
+    "circular-json": "^0.5.9",
+    "express": "^4.5.1",
+    "method-override": "~2.0.2",
+    "mongodb": "^3.1.9",
+    "mongoose": "~3.8.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "<h2>Source code for the project demonstrating data visualization using d3.js, dc.js, node.js and mongodb<h2><br/>",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayyuan90/node-dc-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayyuan90/node-dc-mongo/issues"
+  },
+  "homepage": "https://github.com/rayyuan90/node-dc-mongo#readme"
 }
